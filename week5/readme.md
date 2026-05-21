@@ -1,19 +1,19 @@
-# Week 4 Assignments: HTML Basics
+ Modern HTML & CSS UI Implementation
 
-This folder contains introductory HTML assignments focusing on semantic structure, lists, and basic web page layout.
+A complete frontend practice project focused on building responsive and modern UI layouts using HTML5 and CSS3. This project covers essential web design concepts including layouts, styling, Flexbox, Grid, and responsive design techniques.
 
-## Assignments Overview
 
-| File | Topic | Description |
-| :--- | :--- | :--- |
-| `a3.html` | Profile Page | A personal profile page for "Pochi the Cat" demonstrating headings, paragraphs, images, and links. |
-| `NestedUnorderedList.html` | Nested Lists | A demonstration of correctly structured nested unordered lists for course categorization. |
+features
 
-## Key Enhancements
-- **Semantic HTML5**: Updated files to use `<header>`, `<main>`, `<section>`, and `<footer>` for better document structure.
-- **Improved Nesting**: Fixed list nesting errors to comply with HTML standards (lists must be children of `<li>` elements).
-- **Embedded Styles**: Added internal CSS to improve the visual presentation for code reviews.
-- **Accessibility**: Added proper `alt` text for images and `lang` attributes for documents.
+- Semantic HTML5 structure
+- Modern CSS styling techniques
+- Responsive layouts
+- CSS Flexbox implementation
+- CSS Grid implementation
+- Navigation bars
+- Cards & sections
+- Responsive UI components
+- Media queries
+- Hover effects & transitions
+- Clean folder structure
 
-## How to View
-Simply open any `.html` file in a modern web browser.
