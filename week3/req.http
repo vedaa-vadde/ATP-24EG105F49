@@ -1,0 +1,81 @@
+
+###read all users
+GET http://localhost:4000/user-api/users
+
+###read the user by id
+GET http://localhost:4000/user-api/user
+
+###
+POST http://localhost:4000/user-api/users
+Content-Type: application/json
+
+{ "username":"vedaa",
+    "password":"khushal",
+    "email":"vedaa@gamil.com",
+    "age":19
+}
+
+###
+
+PUT http://localhost:4000/user-api/users/69aa8c42ea2be8fb5e58e107
+Content-Type: application/json
+
+{ "username":"bhantttttr",
+    "password":"bhanukumar",
+    "email":"fg@gamil.com",
+    "age":12
+}
+
+###
+
+DELETE http://localhost:4000/user-api/users/69aa88cd980fa33241c34067
+//get request and delete request do not support body of the request
+//post and put request should send the data to the api as body of the request object
+//so that these two request should send the data through end point
+
+
+###
+GET http://localhost:4000/product-api/products
+
+###
+GET http://localhost:4000/product-api/products/301
+
+#### 
+POST http://localhost:4000/product-api/products
+Content-Type: application/json
+
+{
+    "productId":301,
+    "productName":"iWatch",
+    "price":20000,
+    "brand":"apple"
+    
+}
+
+
+###
+PUT http://localhost:4000/product-api/products/101
+Content-Type: application/json
+
+{
+     "productId":401,
+    "productName":"dairymilk",
+    "price":10000,
+    "brand":"idk"
+}
+###
+DELETE http://localhost:4000/product-api/products/301
+
+
+//user login
+###
+POST http://localhost:4000/user-api/auth
+Content-Type: application/json
+
+{
+    "email":"vedaa@gamil.com",
+    "password":"khushal"
+}
+
+###add product to user cart
+PUT http://localhost:4000/user-api/cart/product-id/69ab9c6f0ae889849c644625
