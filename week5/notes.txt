@@ -1,0 +1,110 @@
+margin
+border
+padding
+   
+   
+      ---------
+     | content |
+      ---------
+
+
+
+
+      margin=outside element
+      padding=indide spacing of element
+
+MARGIN AND padding
+--all sides
+--tb lr ---2values
+--t lr b---3 values
+--t r b l ---4 values
+      
+
+
+       border:50px solid red;
+    text-align: center;
+    padding:50px 100px 0px 3px;
+    width:500px;
+    box-sizing:border-box;
+
+Pseudo classes
+     focus
+     visited
+     hover
+     active
+     first-child
+     last-child
+     nth-child
+
+
+margin:auto==>center
+img center- display to block and margin to auto
+dont want border for any elemnt:border:none
+
+
+
+POSITIONSS
+   relative
+   absolute
+   fixed
+   sticky
+
+EM-FONT SIZE OF PARENT ELEMENT
+REM-FONT SIZE OF ROOT ELEMENT=10rem(10 times of root element)
+dont use px for font-SIZE
+
+list-style-position:inside;
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+   }
+/*
+
+heading1{
+   /* width:100%;
+   max-width:500px;
+   width:700px;
+   height:700px;
+   text-align: center;
+    padding:70px;
+    border:2px solid black;
+    background-color: aqua;
+    margin:100px;
+   /* border-radius: 50%;   
+   color: hsl(28,59%,52%);
+   color:rgb(red, green, blue);
+   color:#0000ff;
+   font-family:"Roboto Condensed", sans-serif;
+}
+*/
+
+
+/*width and bgc shld be same for heading1 and 2 and the remaining are diff*/
+
+.heading{
+    width:700px;
+    background-color: red;
+}
+.heading1{
+    color: yellowgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heading2{
+    color: violet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width:300px;
+    border-radius: 20px;;
+}
+.img1{
+    float: left;
+}
+
+react is used in many real world applicatons like netflix, walmart,facebookk, instagram etc

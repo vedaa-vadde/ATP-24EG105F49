@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+form{
+    width: 700px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: blueviolet;
+    padding: 50px;
+}
+input[type="text"],input[type="password"],select,textarea,button{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+div{
+    margin-top: 20px;;
+}

@@ -1,0 +1,16 @@
+h1{
+    color: blueviolet;
+    font-size: 80PX;
+    text-align: center;
+    background-color: beige;
+    text-align: right;
+    
+}
+img{
+    float: right;
+    display:block;
+    margin:auto;
+}
+a{
+    display:block
+}

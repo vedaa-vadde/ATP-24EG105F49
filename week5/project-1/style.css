@@ -1,0 +1,19 @@
+div{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+}
+img{
+    display:block;
+    margin: auto;
+    width: 200px;
+}
+body{
+    background-color: rgb(225, 142, 41);
+}
+h2{
+    color: brown;
+}
+h1{
+    text-align: center;
+}

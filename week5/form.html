@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styleform.css">
+</head>
+<body>
+    <h1>Forms</h1>
+    <form>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="enter username0" autocomplete="off"
+            required minlength="4" maxlength="6">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div>
+        <div>
+            <input type="checkbox" name="react" id="react">
+            <label for="react">React</label>
+        </div>
+          <div>
+            <input type="checkbox" name="angular" id="angular">
+            <label for="angular">Angular</label>
+        </div>
+        </div>
+        <div>
+            <div>
+              <input type="radio" name="gender" id="male">
+            <label for="male">male</label>  
+            </div>
+            <div>
+              <input type="radio" name="gender" id="female">
+            <label for="female">female</label>  
+            </div>
+        </div>
+        <!--dropdown-->
+        <div class="field">
+            <select name="state" id="">
+                <option value="telangana">Telangana</option>
+                <option value="andhra pradesh">andhra pradesh</option>
+                <option value="karnataka">karnataka</option>
+                <option value="kerala">kerala</option>
+
+            </select>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+div{
+    margin: 500px;
+    text-align: center;
+    background-color: rgb(55, 106, 143);
+    position: absolute;
+}
+img{
+    margin-top: 50px;
+    width:50%;
+}
+h1{
+    margin-top: 20px;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+.linkedIn{
+    position:absolute;
+    
+    bottom:-50px;
+    right: 50%;
+    
+}
+.gitHub{
+    position:absolute;
+    right:-50%;
+    top:-50px;
+    
+}
